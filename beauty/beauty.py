@@ -1,8 +1,8 @@
 import telebot
 from telebot import types
 
-BOT_TOKEN = '8216114774:AAHvmxCht79fVCFMnM14WqO2FOkBF5QxLx4'
-DIRECTOR_CHAT_ID = 640876100  
+BOT_TOKEN = '---------'
+DIRECTOR_CHAT_ID = ---------
 
 bot = telebot.TeleBot(BOT_TOKEN)
 
@@ -106,3 +106,4 @@ def cleanup_user_data(user_id):
 if __name__ == '__main__':
     print("Бот запущен...")
     bot.polling(none_stop=True)
+
